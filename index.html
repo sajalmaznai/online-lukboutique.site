@@ -2,10 +2,81 @@
 <html>
 <head>
     <title>Online Luk Boutique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            text-align: center;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to Online Luk Boutique</h1>
-    <p>Shop the latest fashion trends.</p>
+
+<header>
+    <h1>Online Luk Boutique</h1>
+    <p>Trendy Fashion for Every Season</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="products">
+    <div class="product">
+        <h3>Classic Hoodie</h3>
+        <p>$39.99</p>
+    </div>
+    <div class="product">
+        <h3>Summer Dress</h3>
+        <p>$49.99</p>
+    </div>
+    <div class="product">
+        <h3>Denim Jacket</h3>
+        <p>$59.99</p>
+    </div>
+</section>
+
+<footer>
     <p>This website is secured with HTTPS using a free Let's Encrypt certificate.</p>
+</footer>
+
 </body>
 </html>
